@@ -3,7 +3,7 @@ require "jekyll"
 require "tmpdir"
 
 # Github pages publishing.
-namespace :blog do
+namespace :website do
   #
   # Because we are using 3rd party plugins for jekyll to manage the asset pipeline
   # and suchlike we are unable to just branch the code, we have to process the site
@@ -13,8 +13,8 @@ namespace :blog do
   #
 
   # Usage:
-  # bundle exec rake blog:publish
-  desc "Publish blog to gh-pages"
+  # bundle exec rake website:publish
+  desc "Publish website to gh-pages"
   task :publish do
     # Clear previous site
     system "rm -r _site/"

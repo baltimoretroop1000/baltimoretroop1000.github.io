@@ -21,7 +21,7 @@ Test the website with `bundle exec jekyll serve`.
 
 This website uses **Rake** to automatically build and publish to Github. To build and publish the website, use:
 ```
-rake blog:publish
+rake website:publish
 ```
 
 If you have an error, try using

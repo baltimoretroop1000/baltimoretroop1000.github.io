@@ -33,7 +33,7 @@ theme: jekyll-theme-hydeout
 remote_theme: fongandrew/hydeout
 plugins:
     - jekyll-feed
-    - jekyll-paginate
+paginate: 2
 
 # Exclude from processing.
 # The following items will not be processed, by default.
