@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Upcoming Caving Trip
+title: Upcoming Caving Trip + Signups
 categories: Gavin Posts
 ---
 
