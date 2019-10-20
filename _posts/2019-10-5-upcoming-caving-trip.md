@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Upcoming Caving Trip + Signups
-categories: Gavin Posts
+categories: Posts
 ---
 
 <button name="button"><a href="https://www.google.com/">Signup on TroopTrack</a></button>
