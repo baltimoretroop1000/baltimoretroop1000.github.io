@@ -30,7 +30,7 @@ namespace :blog do
     system "git remote add origin #{origin}"
 
     # Push the files to the master branch, forcing an overwrite.
-    system "git push troop1000-website master --force"
+    system "git push origin master --force"
 
     # Compile the Jekyll site using the config.
     Jekyll::Site.new(Jekyll.configuration({
