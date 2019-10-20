@@ -1,5 +1,6 @@
 # Rquire jekyll to compile the site.
 require "jekyll"
+require "tmpdir"
 
 # Github pages publishing.
 namespace :blog do
