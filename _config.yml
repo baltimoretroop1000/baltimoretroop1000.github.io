@@ -23,8 +23,8 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
     Troop 1000 is a Boy Scouts Troop in Baltimore, MD
     located at the Cathedral of Mary Our Queen.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/troop1000-website" # the subpath of your site, e.g. /blog
+url: "https://footinmysalad.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
