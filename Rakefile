@@ -23,11 +23,7 @@ namespace :website do
     origin = `git config --get remote.origin.url`
 
     # Prepare all the content in the repo for deployment.
-    system "git init" # Init the repo.
     system "git add . && git commit -m 'Site updated at #{Time.now.utc}'" # Add and commit all the files.
-
-    # Add the origin remote for the parent repo to the tmp folder.
-    system "git remote add origin #{origin}"
 
     # Push the files to the master branch, forcing an overwrite.
     system "git push origin master --force"
